@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 auto;
+    max-width: 1080px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    background-image: url("img/star-uó-topo@2x.png");
+    background-repeat: no-repeat;
+    border: 2px solid green;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.star{
+    position: absolute;
+    left: 17%;
+    top: 56%;
+}
+.star img{
+    width: 270px;
+}
+.wars{
+    position: absolute;
+    left: 66%;
+    top: 57%;
+}
+.wars img{
+    width: 275px;
+}
+.kylo-ren{
+    position: absolute;
+    left: 7%;
+    display: flex;
+    align-items: center;
+}
+.kylo-ren img{
+    width: 60vw;
+    height: 100vh;
+}
+.crie-sua-legiao{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    width: 8vw;
+}
+.sua-leg{
+    display: flex;
+    justify-content: space-between;
+}
+.bold{
+    font-size: 1rem;
+    font-weight: 700;
+}
+#linha-horizontal{
+    width: 8vw;
+    border: 1px solid rgb(97, 96, 96);
+    margin: 2vh 0vw;
+}
+.line-p{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+.um{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.dois{
+    font-size: 0.6rem;
+}
+.line-p button{
+    width: 1vw;
+    height: 1.5vh;
+}
+.btn1{
+    font-size: 0.4rem;
+}
+.btn2{
+    font-size: 0.4rem;
+}
+@media(max-width: 930px){
+    .star img{
+        width: 200px;
+    }
+    .wars img{
+        width: 200px;
+    }
+}
+@media(max-width: 620px){
+    .star img{
+        width: 30vw;
+    }
+    .wars img{
+        width: 30vw;
+    }
+}
+.back-robot img{
+    border: 2px solid;
+    width: 42%;
+}
+.comece-jogar{
+    position: absolute;
+    left: 15%;
+    top: 75%;
+    align-items: center;
+    width: 20vw;
+    background-color: #7D1909;
+    opacity: 0.9;
+    color: white;
+}
+.comece-jogar h3{
+    align-items: center;
+    padding: 5vh 4vw;
+    font-size: 1.2rem
+}
+.comece-jogar p{
+    align-items: center;
+    font-weight: lighter;
+    font-size: 0.7rem;
+    padding: 5vh 4vw;
+}
+.comece-jogar button{
+    margin: 5vh 4vw;
+    padding: 1vh 2vw;
+    font-size: 0.5rem;
+    align-items: center;
+    background-color: #7D1909;
+    color: white;
+}
+.figure{
+    display: flex;
+    justify-content: end;
+    padding: 25vh
+}
+.sobre-jogo{
+    width: 30vw;
+    justify-content: right;
+}
+.sobre-jogo h4{
+    font-size: 1.2rem;
+}
+.sobre-jogo hr{
+    margin: 5px;
+}
+.sobre-jogo p{
+    font-size: 0.7rem;
+}
+.figure img{
+    padding-right: 10px;
+    width: 20vw;
+}
