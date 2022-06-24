@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500&display=swap');
 
 *{
     margin: 0;
@@ -6,15 +6,15 @@
     box-sizing: border-box;
 }
 body{
+    border: 3px solid orange;
     margin: 0 auto;
     max-width: 1080px;
     width: 100%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Assistant', sans-serif;
 }
 header{
     background-image: url("img/star-uó-topo@2x.png");
     background-repeat: no-repeat;
-    border: 2px solid green;
     height: 80vh;
     background-size: cover;
     background-position: center;
@@ -50,11 +50,7 @@ header{
     position: absolute;
     bottom: 10%;
     right: 10%;
-    width: 8vw;
-}
-.sua-leg{
-    display: flex;
-    justify-content: space-between;
+    width: 7vw;
 }
 .bold{
     font-size: 1rem;
@@ -67,7 +63,8 @@ header{
 }
 .line-p{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: left;
+    width: 4vw;
     align-items: baseline;
 }
 .um{
@@ -75,10 +72,10 @@ header{
     font-weight: bold;
 }
 .dois{
-    font-size: 0.6rem;
+    font-size: 0.7rem;
 }
 .line-p button{
-    width: 1vw;
+    width: 0.7vw;
     height: 1.5vh;
 }
 .btn1{
@@ -103,58 +100,97 @@ header{
         width: 30vw;
     }
 }
+main{
+    display: flex;
+}
 .back-robot img{
-    border: 2px solid;
-    width: 42%;
+    width: 33vw;
 }
 .comece-jogar{
     position: absolute;
-    left: 15%;
+    left: 20%;
     top: 75%;
-    align-items: center;
-    width: 20vw;
-    background-color: #7D1909;
-    opacity: 0.9;
+    height: 53vh;
+    width: 18vw;
+    background-image: url("img/strom-trupe-red@2x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .comece-jogar h3{
-    align-items: center;
-    padding: 5vh 4vw;
-    font-size: 1.2rem
+    font-size: 2vw;
+    font-weight: 400;
+    line-height: 2.5vw;
+    padding: 10vh 4.5vw;
 }
 .comece-jogar p{
-    align-items: center;
-    font-weight: lighter;
-    font-size: 0.7rem;
-    padding: 5vh 4vw;
+    font-size: 1.04vw;
+    font-weight: 300;
+    padding: 0 1.72vw 0 1.67vw;
+    text-align: left;
+    letter-spacing: 0;
 }
 .comece-jogar button{
-    margin: 5vh 4vw;
-    padding: 1vh 2vw;
-    font-size: 0.5rem;
-    align-items: center;
-    background-color: #7D1909;
+    background-color: #D74430;
+    color: #fff;
+    border: 1px solid #fff;
+    width: 5vw;
+    height: 1.5vw;
+    font-size: 0.7vw;
+    margin-top: 2vw;
+    border-radius: 5px;
+}
+.comece-jogar a{
     color: white;
+    text-decoration: none;
 }
-.figure{
-    display: flex;
-    justify-content: end;
-    padding: 25vh
+.comece-jogar a:hover{
+    color: #D74430;
 }
+.comece-jogar button:hover{
+    background-color: white;
+}
+
 .sobre-jogo{
-    width: 30vw;
-    justify-content: right;
+    width: 40vw;
+    height: 13vw;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 43.1vw;
+    top: 105vh;
 }
-.sobre-jogo h4{
-    font-size: 1.2rem;
-}
-.sobre-jogo hr{
-    margin: 5px;
-}
-.sobre-jogo p{
-    font-size: 0.7rem;
-}
-.figure img{
+.sobre-jogo img{
     padding-right: 10px;
     width: 20vw;
+}
+.sobre-jogo-text{
+    display: flex;
+    flex-direction: column;
+    padding-right: 1vw;
+    width: 20vw;
+    text-align: right;
+}
+.sobre-jogo-text h4{
+    font-size: 1.2rem;
+}
+#linha-horizontal2{
+    height: 2px;
+    background-color: rgb(97, 96, 96);
+    margin: 0.8vw 0 0.8vw 10.8vw;
+    width: 7.8vw;
+}
+.sobre-jogo-text p{
+    font-size: 0.7rem;
+}
+#linha-horizontal3{
+    width: 60vw;
+    position: absolute;
+    left: 20vw;
+    top: 63vw;
+    height: 2px;
+    background-color: rgb(97, 96, 96);
 }
